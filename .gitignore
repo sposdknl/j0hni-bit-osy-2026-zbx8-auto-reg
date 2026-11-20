@@ -1,0 +1,8 @@
+# Stav a cache Vagrantu
+.vagrant/
+*.box
+
+# Editor / operační systém
+.DS_Store
+Thumbs.db
+*.swp
