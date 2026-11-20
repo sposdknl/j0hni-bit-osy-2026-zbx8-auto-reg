@@ -9,6 +9,7 @@ Během automatického provisioningu se nainstaluje webový server Apache2 a Zabb
 Zabbix server: enceladus.pfsense.cz
 
 ![Debian 13 ve VirtualBoxu](images/01-host-registered.png.png)
+(Zobrazení uživatele v Zabbixu)
 
 Použité technologie
 
@@ -98,3 +99,4 @@ Závěr
 Projekt umožňuje automatizované vytvoření virtuálního počítače s Debianem 13, instalaci potřebných služeb a jejich základní konfiguraci prostřednictvím Vagrantu.
 
 ![Monitoring Zabbix](images/02-latest-data.png.png)
+(Monitoring uživatele v Zabbixu)
