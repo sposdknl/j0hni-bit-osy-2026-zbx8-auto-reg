@@ -36,7 +36,6 @@ SSH
 
 Automatická instalace a konfigurace
 
-Veškerá instalace a konfigurace probíhá automaticky prostřednictvím shell provisioningu ve Vagrantfile.
 
 Provisioning provádí následující činnosti:
 
@@ -54,7 +53,7 @@ Nastavení parametrů Server, ServerActive a Hostname.
 
 Povolení automatického spouštění služeb.
 
-Kontrolu funkčnosti Apache2 a Zabbix Agenta.
+Kontrolu funkčnosti Zabbix Agenta.
 
 Spuštění projektu
 
@@ -91,14 +90,6 @@ zabbix_agentd -t agent.ping
 Konfiguraci Zabbix Agenta lze zkontrolovat příkazem:
 
 cat /etc/zabbix/zabbix_agentd.conf
-
-Webový server Apache je dostupný na adrese:
-
-http://localhost:8080
-
-Stav Apache lze zobrazit na:
-
-http://localhost:8080/server-status
 
 Závěr
 
