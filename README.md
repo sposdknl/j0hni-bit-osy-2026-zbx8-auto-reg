@@ -1,4 +1,4 @@
-#Debian 13 – Vagrant a Zabbix Agent
+Debian 13 – Vagrant a Zabbix Agent
 
 Popis projektu
 
@@ -7,6 +7,8 @@ Projekt slouží k automatickému vytvoření virtuálního počítače s opera�
 Během automatického provisioningu se nainstaluje webový server Apache2 a Zabbix Agent. Následně se provedou potřebné konfigurace služeb a nastavení komunikace se Zabbix serverem.
 
 Zabbix server: enceladus.pfsense.cz
+
+![Debian 13 ve VirtualBoxu](images/01-host-registered.png.png)
 
 Použité technologie
 
@@ -94,3 +96,5 @@ cat /etc/zabbix/zabbix_agentd.conf
 Závěr
 
 Projekt umožňuje automatizované vytvoření virtuálního počítače s Debianem 13, instalaci potřebných služeb a jejich základní konfiguraci prostřednictvím Vagrantu.
+
+![Monitoring Zabbix](images/02-latest-data.png.png)
